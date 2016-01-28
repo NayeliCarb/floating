@@ -2,6 +2,7 @@ div{
 	width: 190px;
 	height: 90px;
 	margin: 0px;
+
 	
 }
 .divpapa{
@@ -10,6 +11,7 @@ div{
 	border:solid 2px #DF013A;
 }
 .div{
+
 	margin: 5px;
 	display: inline-block;
 	
@@ -17,12 +19,15 @@ div{
 
 .amarillo{
 	background-color: #FFFF00;
+	float: left;
 }
 
 .azul{
 	background-color: #0101DF;
+	float: left;
 }
 
 .rosa{
 	background-color: #DF0174;
+	float: left;
 }
