@@ -1,33 +1,33 @@
-div{
-	width: 190px;
-	height: 90px;
-	margin: 0px;
+div div{
+	width: 150px;
+	height: 100px;
+	float: right;	
+}
 
+.marco{
+	width: 800px;
+	border:3px solid purple;
+
+}
+
+.rojo{
+	background-color: red;
 	
 }
-.divpapa{
-	width: 600px;
-	height: 270px;
-	border:solid 2px #DF013A;
-}
-.div{
-
-	margin: 5px;
-	display: inline-block;
-	
-}
-
-.amarillo{
-	background-color: #FFFF00;
-	float: right;
-}
-
 .azul{
 	background-color: #0101DF;
-	float: right;
+	
+}
+.amarillo{
+	background-color: #FFFF00;
+	
+}
+.clearfix:before, .clearfix:after{
+	content: "";
+	display: table;
 }
 
-.rosa{
-	background-color: #DF0174;
-	float: right;
+.clearfix:after{
+	clear: both;
 }
+
